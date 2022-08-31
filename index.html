@@ -5,7 +5,294 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website-1</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="styles/global.style.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/newsSection.style.css" />
+    <link rel="stylesheet" href="styles/homesection.style.css" />
+    <link rel="stylesheet" href="styles/services.style.css" />
+    <link rel="stylesheet" href="styles/packagesection.css" />
+    <link rel="stylesheet" href="styles/header.style.css" />
+    <link rel="stylesheet" href="styles/destinationSection.style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Press+Start+2P&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <script type="text/javascript" src="script.js"></script>
+    <!--Header-->
+    <header>
+      <a href="#" class="logo">You-Travel-sfi</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#package">Package</a></li>
+        <li><a href="#destination">Destination</a></li>
+        <li><a href="#footer">Contact Us</a></li>
+      </ul>
+    </header>
+    <!--Home section-->
+    <section class="home" id="home">
+      <div class="bg-container"><img src="/images/bg.jpg" alt="" /></div>
+      <div class="home-text">
+        <h1>Escape The <br />Matrix</h1>
+        <p>
+          Like all great travelers , I have seen more than I remember , <br />
+          and remember more than I have seen .
+        </p>
+        <a href="# " class="home-button">Let's go now</a>
+      </div>
+    </section>
+    <!--services-->
+    <section id="services" class="services container">
+      <div class="title">
+        <h2>Start your vacation with a lot of services !</h2>
+      </div>
+      <div class="row-items">
+        <div class="container-box">
+          <div class="container-img"><img src="/images/tray.png" alt="" /></div>
+          <h4>Food Tours</h4>
+          <p>150 Properties</p>
+        </div>
+        <div class="container-box">
+          <div class="container-img">
+            <img src="/images/cruise.png" alt="" />
+          </div>
+          <h4>Ship Cruises</h4>
+          <p>78 Properties</p>
+        </div>
+        <div class="container-box">
+          <div class="container-img">
+            <img src="/images/mountain.png" alt="" />
+          </div>
+          <h4>Mountain Tours</h4>
+          <p>59 Properties</p>
+        </div>
+        <div class="container-box last">
+          <div class="container-img"><img src="/images/sun.png" alt="" /></div>
+          <h4>Summer Rest</h4>
+          <p>33 Properties</p>
+          <div class="notification">New</div>
+        </div>
+      </div>
+    </section>
+    <!--Package section-->
+    <section class="package container" id="package">
+      <div class="title"><h2>Our Upcoming Tour Package</h2></div>
+      <div class="package-content">
+        <div class="box">
+          <div class="thum">
+            <img class="thum-image" src="/images/Malta.jpg" alt="" />
+            <h3>$499</h3>
+            <div class="sticker"></div>
+            <div class="sticker2"></div>
+            <div class="dest-content">
+              <div class="location stars">
+                <h4>Everfrost</h4>
+                <div>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                </div>
+              </div>
+              <div class="hours">
+                <p>4h - 7h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thum">
+            <div class="thum-image"><img src="/images/Egypt.jpg" alt="" /></div>
+
+            <h3>$789</h3>
+            <div class="sticker"></div>
+            <div class="sticker2"></div>
+            <div class="dest-content">
+              <div class="location stars">
+                <h4>Egypt</h4>
+                <div>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                </div>
+              </div>
+              <div class="hours">
+                <p>2h - 6h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thum">
+            <img class="thum-image" src="/images/paris.jpg" alt="" />
+            <h3>$559</h3>
+            <div class="sticker"></div>
+            <div class="sticker2"></div>
+            <div class="dest-content">
+              <div class="location stars">
+                <h4>Paris</h4>
+                <div>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                  <a href="#"><i class="bx bxs-star"></i></a>
+                </div>
+              </div>
+              <div class="hours">
+                <p>6h - 12h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Destination section-->
+    <section id="destination" class="destination container">
+      <div class="title"><h2>Our Most  Popular Destinations</h2></div>
+      <div class="destination-content">
+        <div class="col-content">
+          <div class="col-image-container">
+            <img src="/images2/1.jpg" alt="" />
+          </div>
+          <div class="col-desc">
+            <h5>Kuala Lumpur</h5>
+            <p>Malaysia</p>
+          </div>
+        </div>
+        <div class="col-content">
+          <div class="col-image-container">
+            <img src="/images2/2.jpg" alt="" />
+          </div>
+          <div class="col-desc">
+            <h5>Phuket</h5>
+            <p>Thailand</p>
+          </div>
+        </div>
+        <div class="col-content">
+          <div class="col-image-container">
+            <img src="/images2/3.jpg" alt="" />
+          </div>
+          <div class="col-desc">
+            <h5>Holbox</h5>
+            <p>Mexico</p>
+          </div>
+        </div>
+
+        <div class="col-content">
+          <div class="col-image-container">
+            <img src="/images2/4.jpg" alt="" />
+          </div>
+          <div class="col-desc">
+            <h5>Bangkok</h5>
+            <p>Thailand</p>
+          </div>
+        </div>
+
+        <div class="col-content">
+          <div class="col-image-container">
+            <img src="/images2/5.jpg" alt="" />
+          </div>
+          <div class="col-desc">
+            <h5>Venice</h5>
+            <p>Italy</p>
+          </div>
+        </div>
+
+        <div class="col-content">
+          <div class="col-image-container">
+            <img src="/images2/6.jpg" alt="" />
+          </div>
+          <div class="col-desc">
+            <h5>Hurghada</h5>
+            <p>Egypt</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--news section-->
+    <section class="news container">
+      <div>
+        <h2>
+          Subscribe to <br />
+          Privilege Offers :
+        </h2>
+        <p>
+          Enter your email to stay informed about promotions , <br />
+          discounts and special offers .
+        </p>
+      </div>
+      <div class="parent">
+        <form>
+          <input
+            class="input"
+            type="email"
+            placeholder="Write Your Email"
+            required
+          />
+          <input class="submit" type="submit" />
+        </form>
+      </div>
+    </section>
+    <!--footer-->
+    <section id="footer" class="footing">
+      
+      <div class="foot-img">
+        <div class="main">
+          <div class="list">
+            <h4>Quick Links</h4>
+            <ul>
+              <li>About Me</a></li>
+              <li>Terms & Conditions</a></li>
+              <li>Privacy Policy</a></li>
+              <li>Help</a></li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Support</h4>
+            <ul>
+              <li>Developers</a></li>
+              <li>Get Involved</a></li>
+              <li>Learn</a></li>
+              <li>Donate</a></li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Informations</h4>
+            <ul>
+              <li>98 West Hay Marzouka Street</li>
+              <li>Salé Mehdia</a></li>
+              <li>+212 656-286-775</a></li>
+              <li>ayousfi666@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Connect</h4>
+            <div class="icons">
+
+             <img class="icona facebook" src="connectIcons/facebook-social-media-social-network-svgrepo-com.svg" alt="" />
+              <img class="icona tiktok" src="connectIcons/tiktok-logo-thin-svgrepo-com.svg" alt="" />
+              <img class="icona instagram" src="connectIcons/instagram-social-media-svgrepo-com.svg" alt="" />
+              <img class="icona tinder" src="connectIcons/tinder-svgrepo-com.svg" alt="" />
+              <img class="icona pinterest" src="connectIcons/pinterest-social-media-svgrepo-com.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="copyright"><p>Copyright ©2022 All rights reserved | Made with HTML & CSS by Yousfi Abderrahmane ~</p></div>
+      </div>
+    </section>
+  </body>
 </html>
